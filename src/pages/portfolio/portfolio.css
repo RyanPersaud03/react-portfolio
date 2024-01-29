@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust this based on your preferences */
+    padding: 5%;
+  }
+  
+  .project-result {
+    flex: 0 0 calc(50% - 20px); /* Set each project to take up half of the container width with some spacing */
+    margin-bottom: 20px; /* Add margin at the bottom to create spacing between rows */
+  }
+  
+  img {
+    width: 100%; /* Make sure the image takes up the full width of its container */
+    border-radius: 10px; /* Add border-radius for rounded corners (adjust as needed) */
+    max-width: 200px; /* Set a maximum width for the images (adjust as needed) */
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px; /* Add some space between the image and the link */
+  }
