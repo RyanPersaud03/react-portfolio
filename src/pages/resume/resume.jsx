@@ -6,9 +6,8 @@ import Footer from '../../components/Footer/Footer'
 const Resume = () => {
   return (
     <>
-    <Header />
     <h2>Resume</h2>
-    <p>Downloud my <a href='https://google.com' target='_blank'>resume</a></p>
+    <p>Download my <a href='./assets/ryan-resume.pdf' download='ryan-resume.pdf' className='resume-link'>Resume</a></p>
 
     <h3>Front-end Proficiencies</h3>
     <ul>

@@ -1,6 +1,4 @@
-body {
-    background-color: bisque;
-}
+
 .project-container {
     display: flex;
     flex-wrap: wrap;

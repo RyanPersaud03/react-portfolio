@@ -1,20 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
-// import navigation from '../Navigation/navigation'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+  console.log(document.location)
+  class Link {
+    constructor(name, href){
+      this.name = name
+      this.href = href
+    }
+  }
+  const links = [new Link("About", "/"), new Link("Portfolio", "/portfolio"), new Link ("Contact", "/contact"), new Link("Resume", "/resume")]
+
   return (
     <header>
-    <h1>Ryan's Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="#Resume">Resume</a></li>
-      </ul>
-    </nav>
-  </header>
+      <h1>Ryan's Portfolio</h1>
+      <nav>
+        <ul>
+          {links.map(link => 
+          <li className={document.location.pathname == link.href ? "active currentLink" : "currentLink" }><a href={link.href} >{link.name}</a></li>
+          )}     
+        </ul>
+      </nav>
+    </header>
   )
 }
 

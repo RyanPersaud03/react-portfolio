@@ -19,3 +19,13 @@ header {
     color: #fff;
     margin: 0 10px;
   }
+
+  .currentLink{
+    border-bottom: #b5ce2a;
+    border-width: 15px;
+    
+  }
+
+  .active {
+    text-decoration: underline;
+  }

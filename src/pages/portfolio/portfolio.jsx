@@ -6,29 +6,32 @@ import Footer from '../../components/Footer/Footer'
 const Portfolio = () => {
   return (
     <>
-        <Header />
         <h2>Portfolio</h2>
 
         <div className='project-container'>
 
           <div className='project-result'>
-        <img src="https://placekitten.com/200/300" alt="cat" />
-        <a href='https://google.com' target='_blank'>Project One</a>
+            <img src="./assets/noteApp.png" alt="cat" />
+            <p>Note App</p>
+            <a href="https://github.com/RyanPersaud03/note-taker" target='_blank'>Source code</a>
         </div>
 
           <div className='project-result'>
-        <img src="https://placekitten.com/200/300" alt="cat" />
-        <a href='https://google.com' target='_blank'>Project One</a>
+        <img src="./assets/password-generator-screenshot.png" alt="cat" />
+        <p>Password Generator</p>
+        <a href="https://github.com/RyanPersaud03/password-generator" target='_blank'>Source code</a>
         </div>
 
           <div className='project-result'>
-        <img src="https://placekitten.com/200/300" alt="cat" />
-        <a href='https://google.com' target='_blank'>Project One</a>
+        <img src="./assets/techblog-screenshot.png" alt="cat" />
+        <p>Tech Blog</p>
+        <a href="https://github.com/RyanPersaud03/tech-blog" target='_blank'>Source code</a>
         </div>
         
           <div className='project-result'>
-        <img src="https://placekitten.com/200/300" alt="cat" />
-        <a href='https://google.com' target='_blank'>Project One</a>
+        <img src="./assets/workday-screenshot.png" alt="cat" />
+        <p>Workday Schedule</p>
+        <a href="https://github.com/RyanPersaud03/work-day-scheduler" target='_blank'>Source code</a>
         </div>
 
         </div>

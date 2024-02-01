@@ -1,8 +1,11 @@
-body {
-    background-color: salmon;
-}
+
 .profile-img {
     border-radius: 50%;
     display: block;
     margin: 20px 0 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
 }

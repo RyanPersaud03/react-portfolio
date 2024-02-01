@@ -9,4 +9,19 @@ footer {
     bottom: 0;
     width: 100%;
   }
+
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer-li {
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+
   
